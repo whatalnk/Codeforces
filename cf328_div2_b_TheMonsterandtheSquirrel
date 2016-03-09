@@ -1,0 +1,11 @@
+# [Problem - 592B - Codeforces](http://codeforces.com/problemset/problem/592/B)
+n = gets.chomp.to_i
+if n == 3 then
+  puts 1
+else
+  a1 = 1
+  4.upto(n).each do |a|
+    a1 += 3 + 2*(a-4)
+  end
+  puts a1
+end
