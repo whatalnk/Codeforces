@@ -11,7 +11,7 @@ while line = gets
     puts "git " + com.join(" ")
     system("git", *com)
   else
-    com1 = ["fetch", remotename, master]
+    com1 = ["fetch", remotename, "master"]
     puts "git " + com1.join(" ")
     system("git", *com1)
     com2 = ["subtree", "pull", "--prefix", "#{language}/#{contest}", remotename, "master", "--squash"]
