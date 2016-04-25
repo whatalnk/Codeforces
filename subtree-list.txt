@@ -20,3 +20,4 @@
 # wunderfund2016 ruby git@gist.github.com:8218b6beeee7773869b2
 # cf331 ruby git@gist.github.com:ab0a5e8bbafa1320213f
 # cf345 ruby git@gist.github.com:30d9cbf1783e81a283a7
+cf348 ruby https://gist.github.com/cc7d54a9121607dbdc0a9c0107b7c166.git
